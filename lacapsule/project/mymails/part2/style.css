@@ -45,4 +45,10 @@ h6 {
     border-bottom: 1px solid #DADADA;
 }
 
+.message {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 
