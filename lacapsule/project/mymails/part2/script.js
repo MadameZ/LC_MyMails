@@ -23,7 +23,7 @@ document.getElementById("btn-add").addEventListener("click",
 
         var image = document.createElement("img");
         image.className = "avatar";
-        image.src = "avatar-1.jpg";
+        image.src = "./assets/avatar-1.jpg";
         mainDiv.appendChild(image); // insérer notre enfant image dans mainDiv
 
         // Créer une nouvelle div pour h6 et p :
@@ -40,7 +40,7 @@ document.getElementById("btn-add").addEventListener("click",
 
         var trash = document.createElement("img");
         trash.className = "trash";
-        trash.src = "trash.png";
+        trash.src = "./assets/trash.png";
         mainDiv.appendChild(trash);
 
         // Remettre le textField vide :
@@ -57,6 +57,7 @@ document.getElementById("btn-add").addEventListener("click",
             var messageCount = document.getElementsByTagName('p').length;
             document.getElementById('count').textContent = messageCount;
         }
-        )
+        );
+
     }
 )
