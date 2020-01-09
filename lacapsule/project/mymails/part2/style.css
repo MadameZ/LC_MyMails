@@ -8,7 +8,7 @@ body {
    align-items: center;
 }
 
-.box {
+.row {
     width: 50%;
     background-color: #FFFFFF;  
     border-top: 1px solid #DADADA;
@@ -41,14 +41,26 @@ h6 {
     margin: 0;
 }
 
-.lastBox {
+.lastrow {
     border-bottom: 1px solid #DADADA;
 }
 
-.message {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+#add-message {
+    margin-right: 15px;
+    width: 85%;
+    padding: 8px 5px; /* Sur le top et les côtés */
 }
 
+#add-message:focus { /* Sur un bouton, il y a un style par défaut */
+    outline: 0;
+}
+
+#btn-add {
+    border-color: #7788EE;
+    border-radius: 5px;
+    color: #7788EE;
+    font-size: 16px;
+    padding: 6px;
+
+}
 

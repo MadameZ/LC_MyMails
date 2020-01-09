@@ -10,11 +10,18 @@
 </head>
 <body>
 
-    <div class="message">
-        <h6>Messages total: 0</h6>
+    <div class="row">
+        Messages total: <span id="count">0</span> 
     </div>
 
-    <div class="box">
+    <div class="row">
+        <!-- Pour ajouter un textField --> 
+        <input id="add-message" type="text" placeholder="new message">
+        <!-- Pour ajouter un bouton --> 
+        <button id="btn-add" type="button">Add</button>
+    </div>
+
+    <div class="row">
     <img class="avatar" src="./assets/avatar-1.jpg" alt="#">
         <div class="info">
         <h5>Noel Pagnelli</h5>
@@ -23,7 +30,7 @@
     <img class="trash" src="./assets/trash.png" alt="#">
     </div>
 
-    <div class="box">
+    <div class="row">
     <img class="avatar" src="./assets/avatar-2.jpg" alt="#">
         <div class="info">
         <h6>Elise Watson</h6>
@@ -32,7 +39,7 @@
     <img class="trash" src="./assets/trash.png" alt="#">
     </div>
 
-    <div class="box">
+    <div class="row">
     <img class="avatar" src="./assets/avatar-3.jpg" alt="#">
         <div class="info">
         <h6>Adam Keval</h6>
@@ -41,7 +48,7 @@
     <img class="trash" src="./assets/trash.png" alt="#">
     </div>
 
-    <div class="box">
+    <div class="row">
     <img class="avatar" src="./assets/avatar-4.jpg" alt="#">
         <div class="info">
         <h6>Alexandra Pozt</h6>
@@ -50,7 +57,7 @@
     <img class="trash" src="./assets/trash.png" alt="#">
 </div>
     
-    <div class="box lastBox">
+    <div class="row lastrow">
     <img class="avatar" src="./assets/avatar-5.jpg" alt="#">
         <div class="info">
         <h6>Zoe Milot</h6>
