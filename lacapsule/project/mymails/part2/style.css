@@ -61,6 +61,32 @@ h6 {
     color: #7788EE;
     font-size: 16px;
     padding: 6px;
+}
 
+#btn-add:focus {
+    outline:0;
+}
+
+#search-message {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 60%;
+    padding: 8px 5px; 
+}
+
+#search-message:focus {
+    outline: 0;
+}
+
+#btn-search {
+    border-color: #7788EE;
+    border-radius: 5px;
+    color: #7788EE;
+    font-size: 16px;
+    padding: 6px;
+}
+
+#btn-search:focus {
+    outline:0;
 }
 
