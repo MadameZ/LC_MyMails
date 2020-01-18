@@ -1,4 +1,4 @@
-# LC_MyMails
+# LC_MyMails (La Capsule)
  
 This project is made with HTML, CSS and Javascript / JQuery.
 Just a basic project to understand the eventListner.
